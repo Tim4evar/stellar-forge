@@ -1,0 +1,14 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - soroban-rpc
+
+  soroban-rpc:
+    image: stellar/stellar-rpc:latest
+    ports:
+      - "8000:8000"
