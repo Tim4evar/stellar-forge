@@ -1,0 +1,27 @@
+[package]
+name = "vault"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }
+governance = { path = "../governance" }
+
+[lib]
+crate-type = ["cdylib"]
+doctest = false
+
+[profile.release]
+opt-level = "z"
+overflow-checks = true
+debug = false
+strip = "symbols"
+lto = true
+codegen-units = 1
+panic = "abort"
+
+
