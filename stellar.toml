@@ -1,0 +1,19 @@
+[tool]
+name = "stellar-forge"
+description = "Advanced Soroban dApp with vault and governance"
+version = "1.0.0"
+network = "testnet"
+public = "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4"
+gov = "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHK3M"
+accounts = [
+  { name = "deployer", secret = "SXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" }
+]
+
+[contracts.vault]
+path = "contracts/vault/src/lib.rs"
+
+[contracts.governance]
+path = "contracts/governance/src/lib.rs"
+
+[build]
+limit = "5M"
