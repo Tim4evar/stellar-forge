@@ -1,0 +1,231 @@
+   Compiling proc-macro2 v1.0.107
+   Compiling quote v1.0.47
+   Compiling unicode-ident v1.0.24
+   Compiling version_check v0.9.5
+   Compiling cfg-if v1.0.4
+   Compiling serde_core v1.0.227
+   Compiling syn v2.0.119
+   Compiling typenum v1.20.1
+   Compiling zmij v1.0.23
+   Compiling serde v1.0.227
+   Compiling serde_json v1.0.151
+   Compiling memchr v2.8.3
+   Compiling itoa v1.0.18
+   Compiling serde_derive v1.0.227
+   Compiling zeroize_derive v1.5.0
+   Compiling zeroize v1.9.0
+   Compiling generic-array v0.14.9
+   Compiling subtle v2.6.1
+   Compiling libc v0.2.189
+   Compiling autocfg v1.5.1
+   Compiling const-oid v0.9.6
+   Compiling crate-git-revision v0.0.6
+   Compiling crypto-common v0.1.6
+   Compiling block-buffer v0.10.4
+   Compiling digest v0.10.7
+   Compiling ident_case v1.0.1
+   Compiling strsim v0.11.1
+   Compiling semver v1.0.28
+   Compiling getrandom v0.2.17
+   Compiling rand_core v0.6.4
+   Compiling cpufeatures v0.2.17
+   Compiling darling_core v0.23.0
+   Compiling num-traits v0.2.19
+   Compiling zerocopy v0.8.55
+   Compiling schemars v0.8.22
+   Compiling darling_macro v0.23.0
+   Compiling darling v0.23.0
+   Compiling dyn-clone v1.0.20
+   Compiling syn v1.0.109
+   Compiling serde_with_macros v3.21.0
+   Compiling stellar-strkey v0.0.13
+   Compiling data-encoding v2.11.0
+   Compiling rustc_version v0.4.1
+   Compiling hex v0.4.3
+   Compiling paste v1.0.15
+   Compiling ppv-lite86 v0.2.21
+   Compiling stellar-xdr v23.0.0
+   Compiling cfg_eval v0.1.2
+   Compiling ethnum v1.5.3
+   Compiling escape-bytes v0.1.1
+   Compiling rand_chacha v0.3.1
+   Compiling sha2 v0.10.9
+   Compiling serde_with v3.21.0
+   Compiling num-integer v0.1.46
+   Compiling num-bigint v0.4.8
+   Compiling rand v0.8.7
+   Compiling ff v0.13.1
+   Compiling der v0.7.10
+   Compiling ahash v0.8.12
+   Compiling hashbrown v0.17.1
+   Compiling base16ct v0.2.0
+   Compiling equivalent v1.0.2
+   Compiling either v1.16.0
+   Compiling itertools v0.10.5
+   Compiling indexmap v2.14.0
+   Compiling sec1 v0.7.3
+   Compiling group v0.13.0
+   Compiling ark-std v0.4.0
+   Compiling ark-serialize-derive v0.4.2
+   Compiling signature v2.2.0
+   Compiling crypto-bigint v0.5.5
+   Compiling libm v0.2.16
+   Compiling once_cell v1.21.4
+   Compiling base64 v0.22.1
+   Compiling elliptic-curve v0.13.8
+   Compiling ark-serialize v0.4.2
+   Compiling wasmparser v0.116.1
+   Compiling ark-ff-macros v0.4.2
+   Compiling ark-ff-asm v0.4.2
+   Compiling derivative v2.2.0
+   Compiling hmac v0.12.1
+   Compiling hybrid-array v0.4.13
+   Compiling thiserror v1.0.69
+   Compiling rfc6979 v0.4.0
+   Compiling ark-ff v0.4.2
+   Compiling soroban-env-macros v23.0.1
+   Compiling hashbrown v0.13.2
+   Compiling curve25519-dalek v4.1.3
+   Compiling num-derive v0.4.2
+   Compiling derive_arbitrary v1.3.2
+   Compiling thiserror-impl v1.0.69
+   Compiling curve25519-dalek-derive v0.1.1
+   Compiling static_assertions v1.1.0
+   Compiling indexmap-nostd v0.4.0
+   Compiling downcast-rs v1.2.1
+   Compiling wasmi_core v0.13.0
+   Compiling wasmparser-nostd v0.100.2
+   Compiling arbitrary v1.3.2
+   Compiling ark-poly v0.4.2
+   Compiling crypto-common v0.2.2
+   Compiling block-buffer v0.12.1
+   Compiling ecdsa v0.16.9
+   Compiling curve25519-dalek v5.0.0
+   Compiling soroban-env-common v23.0.1
+   Compiling prettyplease v0.2.37
+   Compiling spin v0.9.9
+   Compiling smallvec v1.15.2
+   Compiling wasmi_arena v0.4.1
+   Compiling fnv v1.0.7
+   Compiling soroban-wasmi v0.31.1-soroban.20.0.1
+   Compiling darling_core v0.20.11
+   Compiling digest v0.11.3
+   Compiling ark-ec v0.4.2
+   Compiling primeorder v0.13.6
+   Compiling ed25519 v2.2.3
+   Compiling byteorder v1.5.0
+   Compiling heapless v0.8.0
+   Compiling cpufeatures v0.3.0
+   Compiling keccak v0.1.6
+   Compiling soroban-env-host v23.0.1
+   Compiling sha3 v0.10.9
+   Compiling hash32 v0.3.1
+   Compiling ed25519-dalek v2.2.0
+   Compiling p256 v0.13.2
+   Compiling ark-bls12-381 v0.4.0
+   Compiling darling_macro v0.20.11
+   Compiling k256 v0.13.4
+   Compiling soroban-spec v23.5.3
+   Compiling soroban-builtin-sdk-macros v23.0.1
+   Compiling stellar-strkey v0.0.16
+   Compiling stable_deref_trait v1.2.1
+   Compiling hex-literal v0.4.1
+   Compiling dtor-proc-macro v0.0.6
+   Compiling dtor v0.1.1
+   Compiling soroban-spec-rust v23.5.3
+   Compiling darling v0.20.11
+   Compiling soroban-sdk v23.5.3
+   Compiling macro-string v0.1.4
+   Compiling ctor-proc-macro v0.0.6
+   Compiling heck v0.5.0
+   Compiling soroban-sdk-macros v23.5.3
+   Compiling ctor v0.5.0
+   Compiling bytes-lit v0.0.5
+   Compiling visibility v0.1.1
+   Compiling soroban-ledger-snapshot v23.5.3
+   Compiling governance v0.1.0 (/workspaces/stellar-forge/contracts/governance)
+warning: unused import: `Vec`
+ --> contracts/governance/src/lib.rs:3:73
+  |
+3 |     contract, contractimpl, symbol_short, Address, BytesN, Env, Symbol, Vec,
+  |                                                                         ^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: unused import: `Ledger`
+ --> contracts/governance/src/test.rs:5:31
+  |
+5 |     testutils::{Address as _, Ledger},
+  |                               ^^^^^^
+
+warning: use of deprecated method `soroban_sdk::events::Events::publish`: use the #[contractevent] macro on a contract event type
+  --> contracts/governance/src/lib.rs:83:22
+   |
+83 |         env.events().publish(
+   |                      ^^^^^^^
+   |
+   = note: `#[warn(deprecated)]` on by default
+
+warning: use of deprecated method `soroban_sdk::events::Events::publish`: use the #[contractevent] macro on a contract event type
+   --> contracts/governance/src/lib.rs:133:22
+    |
+133 |         env.events().publish(
+    |                      ^^^^^^^
+
+warning: use of deprecated method `soroban_sdk::events::Events::publish`: use the #[contractevent] macro on a contract event type
+   --> contracts/governance/src/lib.rs:176:22
+    |
+176 |         env.events().publish(
+    |                      ^^^^^^^
+
+warning: `governance` (lib test) generated 5 warnings (3 duplicates) (run `cargo fix --lib -p governance --tests` to apply 1 suggestion)
+warning: `governance` (lib) generated 4 warnings (1 duplicate) (run `cargo fix --lib -p governance` to apply 1 suggestion)
+   Compiling vault v0.1.0 (/workspaces/stellar-forge/contracts/vault)
+warning: unused import: `Ledger`
+ --> contracts/vault/src/test.rs:5:31
+  |
+5 |     testutils::{Address as _, Ledger},
+  |                               ^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: use of deprecated method `soroban_sdk::events::Events::publish`: use the #[contractevent] macro on a contract event type
+  --> contracts/vault/src/lib.rs:66:22
+   |
+66 |         env.events().publish((symbol_short!("deposit"), from.clone()), event);
+   |                      ^^^^^^^
+   |
+   = note: `#[warn(deprecated)]` on by default
+
+warning: use of deprecated method `soroban_sdk::events::Events::publish`: use the #[contractevent] macro on a contract event type
+   --> contracts/vault/src/lib.rs:103:22
+    |
+103 |         env.events().publish((symbol_short!("withdraw"), from.clone()), event);
+    |                      ^^^^^^^
+
+warning: use of deprecated method `soroban_sdk::events::Events::publish`: use the #[contractevent] macro on a contract event type
+   --> contracts/vault/src/lib.rs:138:22
+    |
+138 |         env.events().publish((symbol_short!("yield"), config.governance.clone()), event);
+    |                      ^^^^^^^
+
+warning: `vault` (lib test) generated 4 warnings (run `cargo fix --lib -p vault --tests` to apply 1 suggestion)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 4m 36s
+     Running unittests src/lib.rs (target/debug/deps/governance-5e0513b8d3e43e10)
+
+running 3 tests
+test test::test_initialize_and_yield_rate ... ok
+test test::test_yield_rate_update ... ok
+test test::test_create_proposal_and_vote ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.22s
+
+     Running unittests src/lib.rs (target/debug/deps/vault-ac74af8bfc0b70cc)
+
+running 3 tests
+test test::test_get_total_deposits_and_shares ... ok
+test test::test_deposit_and_withdraw ... ok
+test test::test_initialize ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.20s
+
