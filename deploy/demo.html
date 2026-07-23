@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stellar Forge Demo Video</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 24px;
+      color: #58a6ff;
+    }
+    video {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+      background: #000;
+    }
+    .links {
+      margin-top: 24px;
+      display: flex;
+      gap: 16px;
+    }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+      padding: 8px 16px;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    a:hover {
+      background: #161b22;
+    }
+  </style>
+</head>
+<body>
+  <h1>Stellar Forge - Demo Walkthrough</h1>
+  <video controls width="960" poster="../docs/screenshots/live-demo.png">
+    <source src="../docs/screenshots/demo-video.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+  <div class="links">
+    <a href="https://stellar-forge-eight.vercel.app">Live App</a>
+    <a href="https://github.com/Tim4evar/stellar-forge">GitHub</a>
+  </div>
+</body>
+</html>

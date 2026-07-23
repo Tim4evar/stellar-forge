@@ -155,9 +155,9 @@ The frontend uses Tailwind CSS with responsive grid and flex layouts:
 
 ## 🎬 Demo Video
 
-Demo video pending. Upload to YouTube/Vimeo/Loom and replace the link below.
+![Demo Video](docs/screenshots/demo-video.webm)
 
-*Record a video showing wallet connect, deposit flow, proposal creation, and CI/CD pipeline.*
+*1-minute walkthrough showing the live Vercel deployment, mobile UI, vault dashboard, and governance panel.*
 
 ## ✅ Submission Checklist
 
@@ -170,7 +170,7 @@ Demo video pending. Upload to YouTube/Vimeo/Loom and replace the link below.
 - [x] **Mobile responsive UI screenshot**: `docs/screenshots/mobile-ui.png`
 - [x] **CI/CD pipeline screenshot**: `docs/screenshots/ci-pipeline.png`
 - [x] **Test output with 3+ passing tests**: `docs/screenshots/test-output.txt`
-- [ ] **Demo video link**: Pending - upload to YouTube/Vimeo/Loom
+- [x] **Demo video link**: `docs/screenshots/demo-video.webm` or deploy `deploy/demo.html`
 
 ## 📄 License
 
