@@ -8,7 +8,7 @@
 
 ## 🚀 Live Demo
 
-**Frontend**: Deploy the `deploy/` folder to Vercel, Netlify, or any static host.  
+**Frontend**: https://stellar-forge-eight.vercel.app
 **Contracts**: Live on Stellar Testnet
 
 | Contract | Address | Deploy Tx |
@@ -161,7 +161,7 @@ Demo video pending. Upload to YouTube/Vimeo/Loom and replace the link below.
 - [x] **Public GitHub repository**: https://github.com/Tim4evar/stellar-forge
 - [x] **README with complete documentation**: This file
 - [x] **10+ meaningful commits**: 16 commits in git history
-- [x] **Live demo link**: Deploy `deploy/` folder to Vercel/Netlify
+- [x] **Live demo link**: https://stellar-forge-eight.vercel.app
 - [x] **Contract deployment address**: See table above
 - [x] **Transaction hash**: See table above
 - [x] **Mobile responsive UI screenshot**: `docs/screenshots/mobile-ui.png`
