@@ -135,9 +135,24 @@ The frontend uses Tailwind CSS with responsive grid and flex layouts:
 - Two-column vault/governance layout on desktop
 - Responsive header and typography
 
+## 📸 Screenshots
+
+### Mobile UI
+![Mobile UI](docs/screenshots/mobile-ui.png)
+
+### CI/CD Pipeline
+![CI/CD Pipeline](docs/screenshots/ci-pipeline.png)
+
+### Test Output
+![Test Output](docs/screenshots/test-output.png)
+
+### Contract Deployment
+![Vault Contract](docs/screenshots/vault-contract.png)
+![Governance Contract](docs/screenshots/governance-contract.png)
+
 ## 🎬 Demo Video
 
-[Watch the 2-minute demo walkthrough](https://youtu.be/placeholder)
+Demo video pending. Upload to YouTube/Vimeo/Loom and replace the link below.
 
 *Record a video showing wallet connect, deposit flow, proposal creation, and CI/CD pipeline.*
 
@@ -145,14 +160,14 @@ The frontend uses Tailwind CSS with responsive grid and flex layouts:
 
 - [x] **Public GitHub repository**: https://github.com/Tim4evar/stellar-forge
 - [x] **README with complete documentation**: This file
-- [x] **10+ meaningful commits**: 13 commits in git history
+- [x] **10+ meaningful commits**: 16 commits in git history
 - [x] **Live demo link**: Deploy `deploy/` folder to Vercel/Netlify
 - [x] **Contract deployment address**: See table above
 - [x] **Transaction hash**: See table above
 - [x] **Mobile responsive UI screenshot**: `docs/screenshots/mobile-ui.png`
 - [x] **CI/CD pipeline screenshot**: `docs/screenshots/ci-pipeline.png`
 - [x] **Test output with 3+ passing tests**: `docs/screenshots/test-output.txt`
-- [x] **Demo video link**: See above
+- [ ] **Demo video link**: Pending - upload to YouTube/Vimeo/Loom
 
 ## 📄 License
 
