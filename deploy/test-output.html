@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Output - Stellar Forge</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      padding: 40px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h1 { color: #58a6ff; margin-bottom: 8px; }
+    .subtitle { color: #8b949e; margin-bottom: 32px; }
+    .test-suite {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    .test-suite h2 {
+      color: #c9d1d9;
+      font-size: 16px;
+      margin: 0 0 16px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .badge {
+      background: #238636;
+      color: #fff;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 500;
+    }
+    .test {
+      padding: 8px 0;
+      border-bottom: 1px solid #21262d;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .test:last-child { border-bottom: none; }
+    .pass { color: #3fb950; }
+    .icon { font-size: 14px; }
+    pre {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      padding: 16px;
+      overflow-x: auto;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <h1>Test Output</h1>
+  <p class="subtitle">Stellar Forge - Soroban Smart Contract Tests</p>
+
+  <div class="test-suite">
+    <h2> Governance <span class="badge">3 passed</span></h2>
+    <div class="test"><span class="icon pass">✔</span> test_initialize_and_yield_rate ... ok</div>
+    <div class="test"><span class="icon pass">✔</span> test_yield_rate_update ... ok</div>
+    <div class="test"><span class="icon pass">✔</span> test_create_proposal_and_vote ... ok</div>
+  </div>
+
+  <div class="test-suite">
+    <h2> Vault <span class="badge">3 passed</span></h2>
+    <div class="test"><span class="icon pass">✔</span> test_get_total_deposits_and_shares ... ok</div>
+    <div class="test"><span class="icon pass">✔</span> test_deposit_and_withdraw ... ok</div>
+    <div class="test"><span class="icon pass">✔</span> test_initialize ... ok</div>
+  </div>
+
+  <div class="test-suite">
+    <h2> Summary </h2>
+    <pre>
+running 3 tests
+test test::test_initialize_and_yield_rate ... ok
+test test::test_yield_rate_update ... ok
+test test::test_create_proposal_and_vote ... ok
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured
+
+running 3 tests
+test test::test_get_total_deposits_and_shares ... ok
+test test::test_deposit_and_withdraw ... ok
+test test::test_initialize ... ok
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured
+    </pre>
+  </div>
+</body>
+</html>
