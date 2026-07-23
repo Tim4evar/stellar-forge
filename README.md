@@ -137,6 +137,9 @@ The frontend uses Tailwind CSS with responsive grid and flex layouts:
 
 ## 📸 Screenshots
 
+### Live Demo
+![Live Demo](docs/screenshots/live-demo.png)
+
 ### Mobile UI
 ![Mobile UI](docs/screenshots/mobile-ui.png)
 
