@@ -2,6 +2,19 @@
 
 Production-ready Stellar dApp featuring advanced smart contract logic, on-chain governance, and a mobile-responsive frontend.
 
+## 🚀 Live Deployment
+
+### Testnet Contracts (Stellar Testnet)
+
+| Contract | Address | Transaction Hash |
+|----------|---------|------------------|
+| **Vault** | `CAT6DSLDNWMNCG3MCI3DEKFBH63DWOOUTVAG263XAJOZU6I6GBCIHPF2` | [8e561f...](https://stellar.expert/explorer/testnet/tx/8e561f4720d82c084de68d492b89ae28456dfac6b17e3570339737ee5ef3c766) |
+| **Governance** | `CB7BYJEJKXKH2FOOMUXPMGMUI3ERIDZ4QNMZJRYTASSJAPNOURYUOY7U` | [6f5b70...](https://stellar.expert/explorer/testnet/tx/6f5b70a3e312cc4096c4194a4ca6294a7d59ac9c4031734bbc84606e45f404d8) |
+
+### Frontend
+- **Live Demo**: Deploy to Vercel/Netlify and update this link
+- **Network**: Stellar Testnet
+
 ## Architecture
 
 ```
@@ -52,21 +65,22 @@ stellar-forge/
 ## Local Development
 
 ### Prerequisites
-- Rust 1.91.0 or higher
-- Stellar CLI v27+
+- Rust 1.90.0 or higher
+- Stellar CLI v26+
 - Node.js 20+
 - Freighter Wallet (browser extension)
 
 ### Smart Contract Tests
 
 ```bash
-# Install Rust toolchain
-rustup toolchain install 1.91.0
-rustup default 1.91.0
-rustup target add wasm32v1-none
-
 # Run contract tests
 cargo test -p vault -p governance
+```
+
+### Build Contracts
+
+```bash
+stellar contract build
 ```
 
 ### Frontend Development
@@ -75,12 +89,6 @@ cargo test -p vault -p governance
 cd frontend
 npm install
 npm run dev
-```
-
-### Build Contracts for Deployment
-
-```bash
-stellar contract build
 ```
 
 ## Deployment
@@ -135,20 +143,9 @@ cd frontend
 npm test
 ```
 
-## Live Demo
-
-- **Frontend**: https://stellar-forge.vercel.app
-- **Vault Contract**: `CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAITA4`
-- **Governance Contract**: `CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHK3M`
-- **Testnet Transaction**: `AAAA`
-
 ## Documentation
 
 See `docs/` for detailed architecture diagrams, API specs, and deployment guides.
-
-## Demo Video
-
-Watch the 2-minute demo walkthrough
 
 ## Requirements Checklist
 

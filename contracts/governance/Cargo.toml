@@ -14,13 +14,6 @@ soroban-sdk = { workspace = true, features = ["testutils"] }
 crate-type = ["cdylib"]
 doctest = false
 
-[profile.release]
-opt-level = "z"
-overflow-checks = true
-debug = false
-strip = "symbols"
-lto = true
-codegen-units = 1
-panic = "abort"
+
 
 
